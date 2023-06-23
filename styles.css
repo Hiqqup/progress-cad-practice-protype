@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, p, a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.header-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15%;
+}
+.header-bar h1{
+    font-size: 24px;
+    font-weight: 900;
+}
+.header-bar ul{
+    display: flex;
+    gap: 16px;
+}
+
+.header-bar ul li a{
+    font-size: 18px;
+    color: #6D747D;
+
+}
+.content-1, .header-bar{
+    color:white;
+    background: #111A42;
+    padding-left: 15%;
+    padding-top: 16px;
+}
+
+.content-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 15%;
+    gap: 80px;
+}
+.content-1 .heading{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.content-1 .text .text{
+    flex-grow: 5;
+    font-size: 18px;
+    color: #6D747D;
+}
+.content-1 .sign-up{
+    color: white;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 900;
+    background-color: #3B82F6;
+    padding: 10px 24px;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+.content-1 .img{
+    width: 40%;
+    height: auto;
+   flex-grow: 1; 
+   flex-shrink: 0;
+
+}
+.content-2 .rocks{
+    display: flex;
+    text-align: center;
+}
+.content-3{
+    background: #DDF8F4;
+}
+
+
