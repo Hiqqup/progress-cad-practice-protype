@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
 }
-h1, h2, p, a{
+h1, h2, p, a, div{
     font-family: Roboto, Calibri, Tahoma, sans-serif;
 }
 a{
@@ -62,7 +62,7 @@ ul{
     font-size: 24px;
     font-weight: 900;
     background-color: #3B82F6;
-    padding: 10px 24px;
+    padding: 10px 36px;
     margin-top: 8px;
     border-radius: 8px;
 }
@@ -85,6 +85,7 @@ ul{
     text-align: center;
     gap: 100px;
     flex: auto;
+    padding-bottom: 6%;
 }
 .content-2 .rocks img{
     width: 250px;
@@ -100,7 +101,7 @@ ul{
 }
 .content-3{
     background: #DDF8F4;
-    padding: 200px 20%;
+    padding: 6% 20%;
 }
 .content-3 .quote{
     font-style: italic;
@@ -112,5 +113,24 @@ ul{
     margin-top: -20px;
     font-size: 30px;
     font-weight: 500;
+}
+.content-4 .container{
+    background: #3B82F6;
+    border-radius: 8px;
+    color: white;
+    margin: 5% 13%;
+    display: flex;
+    padding: 2% 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-4 .sign-up{
+    outline: white 4px solid;
+}
+.footer{
+    background: #111A42;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
 }
 
