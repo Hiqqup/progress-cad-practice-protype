@@ -31,7 +31,7 @@ ul{
 
 .header-bar ul li a{
     font-size: 18px;
-    color: #6D747D;
+    color: #AFB3B9;
 
 }
 .content-1, .header-bar{
@@ -54,7 +54,7 @@ ul{
 .content-1 .text .text{
     flex-grow: 5;
     font-size: 18px;
-    color: #6D747D;
+    color: #AFB3B9;
 }
 .sign-up {
     color: white;
@@ -97,7 +97,7 @@ ul{
 .content-2 .rocks p{
     width: 250px;
     font-size: 18px;
-    color: #6D747D;
+    color: #AFB3B9;
 }
 .content-3{
     background: #DDF8F4;
@@ -124,12 +124,15 @@ ul{
     justify-content: space-between;
     align-items: center;
 }
+.content-4 .container p{
+    color: #c2c7ce;
+}
 .content-4 .sign-up{
-    outline: white 4px solid;
+    outline: white 3px solid;
 }
 .footer{
     background: #111A42;
-    color: white;
+    color: #AFB3B9;
     text-align: center;
     padding: 30px 0;
 }
